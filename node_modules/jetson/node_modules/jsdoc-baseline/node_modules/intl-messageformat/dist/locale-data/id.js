@@ -1,1 +1,0 @@
-IntlMessageFormat.__addLocaleData({"locale":"id","pluralRuleFunction":function (n) {return"other";}});

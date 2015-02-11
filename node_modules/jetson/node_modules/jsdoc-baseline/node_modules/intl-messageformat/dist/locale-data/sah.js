@@ -1,1 +1,0 @@
-IntlMessageFormat.__addLocaleData({"locale":"sah","pluralRuleFunction":function (n) {return"other";}});

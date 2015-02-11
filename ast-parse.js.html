@@ -91,7 +91,7 @@ ASTParse.prototype.skipNodeTypes = function (nodeTypes) {
 };
 
 ASTParse.prototype.skipWhiteSpace = function () {
-  this.skipNodeTypes([&quot;whitespace&quot;, &quot;inline-comment&quot;, &quot;multiline-comment&quot;]);
+  this.skipNodeTypes([&quot;whitespace&quot;, &quot;multiline-comment&quot;]);
 };
 
 ASTParse.prototype.parseObject = function () {
@@ -126,11 +126,11 @@ ASTParse.prototype.parseValue = function () {
 };
 
 ASTParse.prototype.ignoreObjectSeperator = function () {
-  this.skipNodeTypes([&quot;whitespace&quot;, &quot;comma&quot;, &quot;inline-comment&quot;, &quot;multiline-comment&quot;]);
+  this.skipNodeTypes([&quot;whitespace&quot;, &quot;comma&quot;, &quot;multiline-comment&quot;]);
 };
 
 ASTParse.prototype.ignoreArraySeperator = function () {
-  this.skipNodeTypes([&quot;whitespace&quot;, &quot;comma&quot;, &quot;inline-comment&quot;, &quot;multiline-comment&quot;]);
+  this.skipNodeTypes([&quot;whitespace&quot;, &quot;comma&quot;, &quot;multiline-comment&quot;]);
 };
 
 ASTParse.prototype.parseArray = function () {
