@@ -1,1 +1,0 @@
-IntlMessageFormat.__addLocaleData({"locale":"tig","pluralRuleFunction":function (n) {n=Math.floor(n);if(n===1)return"one";return"other";}});

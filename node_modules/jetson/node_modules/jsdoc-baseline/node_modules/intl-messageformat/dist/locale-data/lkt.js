@@ -1,1 +1,0 @@
-IntlMessageFormat.__addLocaleData({"locale":"lkt","pluralRuleFunction":function (n) {return"other";}});
