@@ -16,4 +16,4 @@ deploy: build
 	(git push)
 
 update-npm:
-	npm install jetson --save-dev;
+	npm install;
