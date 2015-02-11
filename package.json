@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/JetsonIO/jetsonio.github.io",
   "devDependencies": {
-    "jetson": "0.0.3"
+    "jetson": "git://github.com/JetsonIO/jetson-javascript"
   }
 }
